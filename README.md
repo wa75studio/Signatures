@@ -14,4 +14,4 @@ Script .JSX InDesign pour ajouter du graphisme au dos des cahiers d'un livre
 [Plus d'informations sur le site d'Adobe](https://helpx.adobe.com/fr/indesign/using/scripting.html)
 
 ## Utilisation
-
+_en cours de rédaction_

@@ -1,5 +1,5 @@
 /**
- * @file signature-v2.jsx
+ * @file signature.jsx
  * @version 2.0
  * @author WA75
  * 
@@ -209,5 +209,3 @@ for (var i = pagesParCahier - 1; i < doc.pages.length; i += pagesParCahier) {
 
 	s++;
 }
-
-// selection.fit(FitOptions.FRAME_TO_CONTENT);

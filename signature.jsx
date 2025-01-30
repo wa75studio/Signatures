@@ -74,8 +74,8 @@ if (app.selection.length == 0) {
 		var epaisseurCahier = ((epaisseurPapier / 1000) * mainPapier) * (pagesParCahier / 2); 
 		// La formule pour l'épaisseur totale de tous les cahiers
 		var epaisseurTotale = nombreDeCahiers * epaisseurCahier;
-		alert("L'épaisseur totale de tous les cahiers est de : " + epaisseurTotale + " mm\n" +
-			  "votre bloc doit faire : " + epaisseurTotale*2 + " mm d’épaisseur");
+		alert("L'épaisseur totale de l’ouvrage est de : " + epaisseurTotale + " mm\n" +
+			  "Votre bloc doit faire : " + epaisseurTotale*2 + " mm d’épaisseur");
 		exit();
 	}else{
 		exit();

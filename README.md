@@ -78,6 +78,5 @@ Les éléments sont positionnés sur un nouveau calque "Dos".
 Si vous relancez le script et que ce calque est présent, vous avez la possibilité de le supprimer, avec son contenu.
 
 ## ⚠️ Clause de non-responsabilité
-
-Ce script est fourni "tel quel", sans garantie d'aucune sorte. L'auteur décline toute responsabilité quant aux dommages pouvant résulter de son utilisation.
-Utilisation à vos propres risques, de préférence sur une copie de votre fichier.
+Utilisez ce script de préférence sur une copie de votre fichier. Ce script est fourni "tel quel", sans garantie d'aucune sorte. L'auteur décline toute responsabilité quant aux dommages pouvant résulter de son utilisation.
+Utilisation à vos propres risques.

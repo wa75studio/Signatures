@@ -33,9 +33,6 @@
 
 
 
-// CORRIGER L'ORIENTATION DU CONTENU DU BLOCK
-
-
 // la sélection
 var selection = app.selection[0];
 

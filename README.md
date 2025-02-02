@@ -51,8 +51,8 @@ _NB: Pour connaitre la largeur du dos d’un cahier, le script utilise la formul
 ![image](https://github.com/user-attachments/assets/8b397ea2-e33d-408a-8e9b-6e32963f0b53)
 
 
-Le script multiplie cette valeur par le nombre de cahier pour obtenir la largeur totale de l’ouvrage.
-Cette valeur est multipliée par 2 et correspond à la largeur minimale conseillée pour le bloc contenant le graphisme.
+Le script multiplie cette valeur par le nombre de cahiers pour obtenir la largeur totale de l’ouvrage.
+La largeur minimale conseillée pour le bloc contenant le graphisme devrait être multipliée par 2.
 
 
 

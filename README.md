@@ -1,6 +1,5 @@
 # Signatures
 
-InDesign .JSX script to add graphics on the back of a book signatures
 Script .JSX InDesign pour ajouter du graphisme au dos des cahiers d'un livre
 
 ## Installation

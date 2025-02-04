@@ -140,6 +140,7 @@ if (isNaN(mainPapier)) {
 var positionY = selection.geometricBounds[1];
 var coordonnees = selection.geometricBounds;
 var largeurDocument = doc.documentPreferences.pageWidth;
+var bleed = doc.documentPreferences.documentBleedTopOffset;
 
 // La formule pour l'épaisseur d'un cahier (grammage / 1000) x main) x (nombre de pages /2)
 // correspondant au décalage du graphisme sur le dos
@@ -151,7 +152,7 @@ var deplacement = ((epaisseurPapier / 1000) * mainPapier) * (pagesParCahier / 2)
 
 // On déplace le bloc pour la page 1
 // geometricBounds = [y1, x1, y2, x2]
-selection.geometricBounds = [0, 0 + deplacement, doc.documentPreferences.pageHeight, 0];
+selection.geometricBounds = [0 - bleed, 0 + deplacement, doc.documentPreferences.pageHeight + bleed, 0];
 // déplacement du contenu du bloc
 // move([x, y])
 var contenuBloc = selection.pageItems[0];
